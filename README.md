@@ -1,4 +1,4 @@
-# dom-utils
+# dom-util
 
 Collection of misc DOM manipulation functions. These are helper
 functions which are not nativly provided by the DOM api's.
@@ -8,7 +8,7 @@ functions which are not nativly provided by the DOM api's.
 ## Installation
 
 ```bash
-$ npm install dom-utils
+$ npm install dom-util
 ````
 
 
@@ -35,7 +35,7 @@ HTML:
 
 JS:
 ```js
-var dom = require('dom-utils');
+var dom = require('dom-util');
 
 var element = document.getElementById('foo');
 var attributes = dom.attributeToArray(element, 'class');
@@ -88,7 +88,7 @@ HTML:
 
 JS:
 ```js
-var dom = require('dom-utils');
+var dom = require('dom-util');
 
 var element = document.getElementById('bar');
 dom.walkDown(element, function(depth){
@@ -128,7 +128,7 @@ HTML:
 
 JS:
 ```js
-var dom = require('dom-utils');
+var dom = require('dom-util');
 
 var element = document.getElementById('bar');
 dom.walkUp(element, function(){
@@ -153,7 +153,7 @@ HTML:
 
 JS:
 ```js
-var dom = require('dom-utils');
+var dom = require('dom-util');
 
 var element = document.getElementById('foo');
 var attributes = dom.attributeToArray(element, 'class');
@@ -176,7 +176,7 @@ HTML before:
 
 JS:
 ```js
-var dom = require('dom-utils');
+var dom = require('dom-util');
 
 var element = document.getElementById('foo');
 dom.removeChildElements(element);
@@ -201,7 +201,7 @@ HTML before:
 
 JS:
 ```js
-var dom = require('dom-utils');
+var dom = require('dom-util');
 
 var root = document.getElementById('foo');
 var children = [];
@@ -237,7 +237,7 @@ HTML before:
 
 JS:
 ```js
-var dom = require('dom-utils');
+var dom = require('dom-util');
 
 var root = document.getElementById('foo');
 var element = document.createElement('li');
@@ -273,7 +273,7 @@ HTML before:
 
 JS:
 ```js
-var dom = require('dom-utils');
+var dom = require('dom-util');
 
 var root = document.getElementById('foo');
 dom.removeLastChildElement(root);
@@ -301,7 +301,7 @@ HTML before:
 
 JS:
 ```js
-var dom = require('dom-utils');
+var dom = require('dom-util');
 
 var root = document.getElementById('foo');
 var element = document.createElement('p');
@@ -329,7 +329,7 @@ HTML before:
 
 JS:
 ```js
-var dom = require('dom-utils');
+var dom = require('dom-util');
 
 var root = document.getElementById('foo');
 var element = document.createElement('p');
@@ -360,7 +360,7 @@ HTML before:
 
 JS:
 ```js
-var dom = require('dom-utils');
+var dom = require('dom-util');
 
 var existing = document.getElementById('foo');
 var element = document.createElement('section');
@@ -387,7 +387,7 @@ HTML before:
 
 JS:
 ```js
-var dom = require('dom-utils');
+var dom = require('dom-util');
 
 var element = document.getElementById('foo');
 dom.removeElement(element);
