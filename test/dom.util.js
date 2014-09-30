@@ -10,7 +10,7 @@ var mocha           = require('mocha'),
 
 
 
-describe('dom.utils.attributeToArray()', function(){
+describe('dom-util.attributeToArray()', function(){
 
     describe('class="foo bar xyz"', function(){
         
@@ -45,7 +45,7 @@ describe('dom.utils.attributeToArray()', function(){
 
 
 
-describe('dom.utils.removeChildElements()', function(){
+describe('dom-util.removeChildElements()', function(){
 
     describe('element has child elements', function(){
 
@@ -98,7 +98,7 @@ describe('dom.utils.removeChildElements()', function(){
 
 
 
-describe('dom.utils.appendMultipleChildElements()', function(){
+describe('dom-util.appendMultipleChildElements()', function(){
 
     describe('append an empty Array', function(){
 
@@ -190,7 +190,7 @@ describe('dom.utils.appendMultipleChildElements()', function(){
 
 
 
-describe('dom.utils.addFirstChildElement()', function(){
+describe('dom-util.addFirstChildElement()', function(){
     
     describe('append a element as first child', function(){
 
@@ -235,7 +235,7 @@ describe('dom.utils.addFirstChildElement()', function(){
 
 
 
-describe('dom.utils.removeLastChildElement()', function(){
+describe('dom-util.removeLastChildElement()', function(){
     
     describe('remove the last child element', function(){
 
@@ -291,7 +291,7 @@ describe('dom.utils.removeLastChildElement()', function(){
 
 
 
-describe('dom.utils.addSiblingAboveElement()', function(){
+describe('dom-util.addSiblingAboveElement()', function(){
     
     describe('append a element above existing element', function(){
 
@@ -338,7 +338,7 @@ describe('dom.utils.addSiblingAboveElement()', function(){
 
 
 
-describe('dom.utils.addSiblingBelowElement()', function(){
+describe('dom-util.addSiblingBelowElement()', function(){
     
     describe('append a element below existing element', function(){
 
@@ -385,7 +385,7 @@ describe('dom.utils.addSiblingBelowElement()', function(){
 
 
 
-describe('dom.utils.replaceElement()', function(){
+describe('dom-util.replaceElement()', function(){
     
     describe('replace an element with a new element', function(){
 
@@ -435,7 +435,7 @@ describe('dom.utils.replaceElement()', function(){
 
 
 
-describe('dom.utils.removeElement()', function(){
+describe('dom-util.removeElement()', function(){
     
     describe('remove a given element', function(){
 
