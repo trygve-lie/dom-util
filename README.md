@@ -19,7 +19,7 @@ $ npm install dom-util
 $ npm test
 ````
 
-Tests are written in [mocha](http://visionmedia.github.io/mocha/) and run
+Tests are written in [mocha](http://mochajs.org/) and run
 in node.js with the help of [jsdom](https://github.com/tmpvar/jsdom).
 
 
