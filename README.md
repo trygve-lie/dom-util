@@ -1,5 +1,7 @@
 # dom-util
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/trygve-lie/dom-util.svg)](https://greenkeeper.io/)
+
 Collection of misc DOM manipulation functions. These are helper
 functions which are not nativly provided by the DOM api's.
 
